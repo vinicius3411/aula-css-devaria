@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Professores</title>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Fale com a Devaria através desta página</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="professores.html">Professores</a></li>
+          <li><a href="FaleConosco.html">FaleConosco</a></li>
+          <li><a href="DevStars.html">DevStars</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>
+        Para mandar uma mensagem para a Devaria, preencha abaixo e clique em
+        enviar:
+      </h2>
+
+      <section>
+        <form action="index.html">
+          <p>
+            <label>Nome: </label
+            ><input type="text" name="nome" maxlength="70" required="true" />
+          </p>
+          <p>
+            <label>E-mail: </label
+            ><input type="text" name="email" maxlenth="150" required="true" />
+          </p>
+          <p>
+            <label>Comentários: </label
+            ><textarea
+              name="comentario"
+              cols="50"
+              rows="4"
+              required="true"
+            ></textarea>
+          </p>
+          <p>
+            <label>Sexo: </label>
+            <input type="radio" name="Sexo" /><label>Feminino</label>
+            <input type="radio" name="Sexo" /><label>Masculino</label>
+          </p>
+          <p>
+            <label>Aonde nos conheceu?</label>
+            <select name="conheceu">
+              <option selected>Youtube</option>
+              <option>Amigos</option>
+              <option>Google</option>
+              <option>Outros</option>
+            </select>
+          </p>
+          <p>
+            <input type="checkbox" name="Novidades" value="Aceite" />
+            <label>Aceito receber e-mails de novidades</label>
+          </p>
+          <p>
+            <input type="submit" name="enviar" value="Enviar" />
+            <input type="reset" name="Limpar" value="Limpar" />
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <span>contato@devaria.com.br</span> <br />
+        <span>Conheça nosso canal no Youtube!</span>
+      </section>
+    </footer>
+  </body>
+</html>
