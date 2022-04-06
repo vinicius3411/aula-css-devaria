@@ -1,11 +1,24 @@
 /*estilos da página home ou index*/
 
 .cover-container figure img {
-width: 100%;
+  padding: 1%;
+  width: 75%;
 }
 
-section div iframe {
-  padding: 5px;
-  width: 98%;
-  height: 339px;
+.cover-container {
+  text-align: right;
+}
+
+.video div iframe {
+  padding: 2.5% 4% 3% 2%;
+  width: 603px;
+  height: 345px;
+}
+
+.video div iframe {
+  background-position-x: 3px;
+  background-position-y: -14px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://www.devaria.com.br/static/media/template_video_dark.9a00710f.svg);
 }
