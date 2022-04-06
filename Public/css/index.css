@@ -1,5 +1,11 @@
-<style>
-h1 {
-  color:darkslateblue;
+/*estilos da página home ou index*/
+
+.cover-container figure img {
+width: 100%;
 }
-<style />
+
+section div iframe {
+  padding: 5px;
+  width: 98%;
+  height: 339px;
+}

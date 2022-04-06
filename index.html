@@ -13,16 +13,20 @@
     <meta name="author" content="Vinicius Rosa" />
     <meta http-equiv="refresh" content="50" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/Public/css/header.css" />
+    <link rel="stylesheet" href="/Public/css/devaria.css" />
+    <link rel="stylesheet" href="/Public/css/index.css" />
     <title>Olá mundo</title>
   </head>
 
   <body>
     <header>
-      <h1>Olá mundo! Essa é a minha primeira página HTML</h1>
-      <nav>
+      <a href="index.html" class="link-logo">
+        <img src="/Public/imagens/logo-devaria.svg" alt="Logo Devaria" />
+      </a>
+
+      <nav class="menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
           <li><a href="professores.html">Professores</a></li>
           <li><a href="FaleConosco.html">Fale Conosco</a></li>
           <li><a href="DevStars.html">DevStars</a></li>
@@ -31,14 +35,11 @@
     </header>
 
     <main>
-      <section>
+      <h1 class="title">Olá mundo! Essa é a minha primeira página HTML</h1>
+      <section class="cover-container">
         <!--seção com a foto de logo da devaria-->
         <figure>
-          <img
-            src="/Public/imagens/foto home.jpg"
-            width="500"
-            alt="Devaria - Olá mundo"
-          />
+          <img src="/Public/imagens/foto home.jpg" alt="Devaria - Olá mundo" />
           <figcaption>foto de capa Devaria</figcaption>
         </figure>
       </section>
@@ -47,8 +48,6 @@
         <!--seção com a apresentação da devaria-->
         <div>
           <iframe
-            width="974"
-            height="548"
             src="https://www.youtube.com/embed/ZEqYpFQZHsw"
             title="Apresentação"
             frameborder="0"
