@@ -1,24 +1,69 @@
 /*estilos da página home ou index*/
 
-.cover-container figure img {
-  padding: 1%;
-  width: 75%;
+main {
+  text-align: center;
 }
 
-.cover-container {
-  text-align: right;
+  .cover-container figure img {
+    position: relative;
+    padding: 1%;
+    width: 75%;
+  }
+
+  
+  .cover-container {
+    text-align: right;
+  }
+  
+  .video div iframe {
+    padding: 46px;
+    margin: auto;
+    width: cover;
+    background-position-x: 3px;
+    background-position-y: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(https://www.devaria.com.br/static/media/template_video_dark.9a00710f.svg);
+  }
+
+main h3.title{
+  font-size: 1.2em;
+}
+
+main section abbr {
+  color: #25cbd3;
+}
+
+  @media screen and (min-width: 992px){
+    .video, .cover-container {
+      display: inline-block;
+      width: 40%;
+      margin: 15px;
+    }
+
+    .cover-container figure img {
+padding: 1%;
 }
 
 .video div iframe {
-  padding: 2.5% 4% 3% 2%;
-  width: 603px;
-  height: 345px;
-}
-
-.video div iframe {
-  background-position-x: 3px;
-  background-position-y: -14px;
+  width: 355px;
+  height: 190px;
+  padding: 40px 35px 30px 30px;
+  margin: auto;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 385px;
   background-image:url(https://www.devaria.com.br/static/media/template_video_dark.9a00710f.svg);
+}
+
+main .section-azure blockquote {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cover-container{
+  text-align: none;
+}
 }

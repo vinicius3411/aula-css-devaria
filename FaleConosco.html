@@ -12,9 +12,11 @@
       content="devaria, programação, aulas ao vivo, formação de graça"
     />
     <meta name="author" content="Vinicius Rosa" />
-    <meta http-equiv="refresh" content="50" />
+    <!--<meta http-equiv="refresh" content="50" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Public/css/header.css" />
+    <link rel="stylesheet" href="/Public/css/footer.css" />
+    <link rel="stylesheet" href="/Public/css/fale-conosco.css" />
     <link rel="stylesheet" href="/Public/css/devaria.css" />
     <title>Professores</title>
   </head>
@@ -34,23 +36,23 @@
       </nav>
     </header>
     <main>
-      <h1>Fale com a Devaria através desta página</h1>
-      <h2>
+      <h1 class="title text-center">Fale com a Devaria através desta página</h1>
+      <h2 class="sub-title text-center">
         Para mandar uma mensagem para a Devaria, preencha abaixo e clique em
         enviar:
       </h2>
 
       <section>
-        <form action="index.html">
-          <p>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+          <div>
             <label>Nome: </label
             ><input type="text" name="nome" maxlength="70" required="true" />
-          </p>
-          <p>
+          </div>
+          <div>
             <label>E-mail: </label
             ><input type="text" name="email" maxlenth="150" required="true" />
-          </p>
-          <p>
+          </div>
+          <div>
             <label>Comentários: </label
             ><textarea
               name="comentario"
@@ -58,13 +60,13 @@
               rows="4"
               required="true"
             ></textarea>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>Sexo: </label>
-            <input type="radio" name="Sexo" /><label>Feminino</label>
-            <input type="radio" name="Sexo" /><label>Masculino</label>
-          </p>
-          <p>
+            <input type="radio" name="Sexo" /><span>Feminino</span>
+            <input type="radio" name="Sexo" /><span>Masculino</span>
+          </div>
+          <div>
             <label>Aonde nos conheceu?</label>
             <select name="conheceu">
               <option selected>Youtube</option>
@@ -72,15 +74,15 @@
               <option>Google</option>
               <option>Outros</option>
             </select>
-          </p>
-          <p>
+          </div>
+          <div>
             <input type="checkbox" name="Novidades" value="Aceite" />
-            <label>Aceito receber e-mails de novidades</label>
-          </p>
-          <p>
+            <span>Aceito receber e-mails de novidades</span>
+          </div>
+          <div>
             <input type="submit" name="enviar" value="Enviar" />
             <input type="reset" name="Limpar" value="Limpar" />
-          </p>
+          </div>
         </form>
       </section>
     </main>
